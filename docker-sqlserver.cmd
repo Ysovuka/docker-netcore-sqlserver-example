@@ -1,0 +1,1 @@
+powershell docker run --rm -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Testing123' -e 'MSSQL_PID=DEVELOPER' -p 1401:1433 --name sqlserver -d microsoft/mssql-server-linux

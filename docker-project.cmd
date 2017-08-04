@@ -1,0 +1,1 @@
+powershell docker run -it --rm -d -p 5000:80 --link sqlserver -e SQLSERVER_HOST=sqlserver docker-netcore-sqlserver-example -name docker-netcore-sqlserver-example
